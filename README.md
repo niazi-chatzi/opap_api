@@ -7,3 +7,7 @@ With AJAX at front end i post and fetch the data to and from the server and show
 Used rest controllers on spring to give and get json formatted objects
 
 This needs to be done once every 48 hours because 99 games take to finish 48 hhours
+
+I have a timer for the last posted time and i wont let new posts before the timer ends 
+
+At the front end i show the timer with an alert box
