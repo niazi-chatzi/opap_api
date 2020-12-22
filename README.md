@@ -5,3 +5,5 @@ A spring application that stores to database the numbers that come from the fron
 The API used belongs to OPAP. I fetch the last 99 games of KINO and get their number results and add them to the databse with their "popularity" (number of times they showed up) in different games.
 With AJAX at front end i post and fetch the data to and from the server and show it with a basic layour using bootstrap table.
 Used rest controllers on spring to give and get json formatted objects
+
+This needs to be done once every 48 hours because 99 games take to finish 48 hhours
